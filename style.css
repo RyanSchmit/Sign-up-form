@@ -1,0 +1,18 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-image: linear-gradient(to bottom right, blue, red);
+	background-size: 100vw 100vh;
+	color: white;
+}
+
+input {
+	display: block;
+	margin: 20px 0px;
+}

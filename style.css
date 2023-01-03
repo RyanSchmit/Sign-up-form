@@ -3,16 +3,80 @@
 	margin: 0;
 }
 
-body {
+.image-side {
+	float: left;
+	height: 100vh;
+	width: 50vw;
+	background-image: url(./gym.jpg);
+	background-size: 50vw 100vh;
 	display: flex;
-	flex-direction: column;
 	align-items: center;
-	background-image: linear-gradient(to bottom right, blue, red);
-	background-size: 100vw 100vh;
+}
+
+.logo {
+	display: flex;
+	width: 50vw;
+	height: auto;
+	padding: 15px 0px;
+	justify-content: center;
+	background-color: black;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+.logo img {
+	width: 5vw;
+	height: auto;
+}
+
+.logo h1 {
+	margin: 10px 0px 0px 15px;
 	color: white;
 }
 
+.form-side {
+	background-image: linear-gradient(to bottom right, blue, red);
+	background-size: 50vw 100vh;
+	height: 100vh;
+	width: 50vw;
+	float: right;
+	color: white;
+}
+
+.form-side h3 {
+	margin: 40px;
+	font-size: 20px;
+}
+
+.form-side .first-header {
+	margin-bottom: 125px;
+}
+
+
 input {
+	margin: 20px 40px;
+	border-radius: 16px;
+	border: 5px white solid;
+	text-indent: 5px;
+	height: 20px;
+	width: 200px;
+}
+
+button {
+	font-size: 15px;
+	background-color: purple;
+	margin: 40px 40px;
 	display: block;
-	margin: 20px 0px;
+	height: 50px;
+	width: 200px;
+	border: 2px white solid;
+	color: white;
+}
+
+button:hover {
+	background-color: white;
+	color: purple;
+}
+
+.login-message {
+	margin: 40px;
 }
